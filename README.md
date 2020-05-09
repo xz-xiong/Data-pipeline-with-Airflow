@@ -5,7 +5,7 @@ automate solution to run task on AWS
 
 The music streaming company Sparkify decide to automate their data warehouse ETL pipelines. Our goal is to create our  own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.
 
-Before choose the tool to achieve that, we considered to run cron, which is a simple and effective way to execute the jobs. However, the limitation of cron is appeared over time as data and the demand for more reports increased. It became difficult to estimate the time a particular job would take.  It often run into lock wait timeouts and deadlocks. Thus, we need a dedicated tool can overcome it. The Apache airflow provides below functions: 
+Before choose the tool to achieve that, we considered to run **cron** , which is a simple and effective way to execute the jobs. However, the limitation of cron is appeared over time as data and the demand for more reports increased. It became difficult to estimate the time a particular job would take.  It often run into lock wait timeouts and deadlocks. Thus, we need a dedicated tool can overcome it. The **Apache Airflow** provides below functions: 
   - Handle complex relationships between jobs.
   - Handle all the jobs centrally with a well defined user interface.
   - Error reporting and alerting.
