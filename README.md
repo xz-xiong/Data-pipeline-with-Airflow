@@ -40,3 +40,7 @@ For example one test could be a SQL statement that checks if certain column cont
 
 ## Workspace
 After you have updated the DAG, you will need to run /opt/airflow/start.sh command to start the Airflow web server. Once the Airflow web server is ready, you can access the Airflow UI by clicking on the blue Access Airflow button.
+
+## Data
+the same used in the project of spark data lake
+https://github.com/xz-xiong/AWS-Spark-Data-Lake/tree/master/data
