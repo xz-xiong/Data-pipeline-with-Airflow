@@ -16,7 +16,7 @@ has decided that it is time to introduce more automation and monitoring to their
 
 The source data resides in Amazon S3 and needs to be processed in data warehouse in Amazon Redshift. The source datasets consist of two kind of JSON logs. One is user activity in the application. The other is the songs information.
 
-![Airflow DAG](dag.png)
+![Airflow DAG](DAG.png)
 
 
 ## Introduction the Operators
