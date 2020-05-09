@@ -19,7 +19,7 @@ The source data resides in Amazon S3 and needs to be processed in data warehouse
 ![Airflow DAG](DAG.png)
 
 
-## Introduction the Operators
+## Operators
 There are four different operators that will stage the data, transform the data, and run checks on data quality.
 
 All of the operators and task instances will run SQL statements against the Redshift database. Using parameters to build flexible, reusable, and configurable operators can later apply to many kinds of data pipelines with Redshift and with other databases.
